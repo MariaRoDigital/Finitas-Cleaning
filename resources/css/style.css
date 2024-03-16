@@ -1,0 +1,119 @@
+body {
+  font-family: 'open-sans';
+  color: rgb(82, 82, 82, 255);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.125rem
+}
+
+h3 {
+  font-size: 0.875rem
+}
+
+body {
+  font-size: 0.50rem;
+}
+
+/* header begins */
+header .desktop-nav {
+  display: none;
+}
+
+header .mobile-nav {
+  height: 3.25rem;
+  padding: 0 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(90, 90, 90);
+}
+
+header .mobile-nav ul {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+header .img-container .small-logo {
+  border-radius: 50%;
+}
+
+header .mobile-nav .img-container {
+  width: 12%;
+  margin: 0;
+}
+
+.mobile-nav li a {
+  font-size: .75rem;
+  padding-left: 1rem;
+}
+
+/* header ends */
+
+/* services section begins */
+#services {
+  display: flex;
+  flex-direction: column;
+}
+
+#services .service-name {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+#services .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#services .images figure {
+  width: 40%;
+  margin: 0;
+}
+
+#services .images img {
+  border-radius: 50%;
+  border-style: double;
+}
+
+/* services section ends */
+
+/* mission statement section begins */
+#mission-statement .lighter-image {
+  height: 14rem;
+  background:
+    /* top, transparent white, faked with gradient */
+    linear-gradient(rgba(255, 255, 255, 20%),
+      rgba(255, 255, 255, 20%)),
+    /* bottom, image */
+    url("../images/woman-relaxing.jpg");
+  background-size: cover;
+  background-position: right;
+}
+
+#mission-statement .mission-statement {
+  position: relative;
+  top: 10%;
+  left: 6%;
+  width: 48%;
+  font-family: "yeseva-one";
+  font-style: italic;
+  font-size: .45rem;
+  line-height: 1.4;
+  letter-spacing: .1em;
+  color: white;
+  text-align: left;
+  padding-right: .5rem;
+}
+
+/* mission statement section ends */
