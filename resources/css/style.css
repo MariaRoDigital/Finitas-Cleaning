@@ -59,35 +59,6 @@ header .mobile-nav .img-container {
 
 /* header ends */
 
-/* services section begins */
-#services {
-  display: flex;
-  flex-direction: column;
-}
-
-#services .service-name {
-  list-style: circle;
-  list-style-position: inside;
-}
-
-#services .images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-#services .images figure {
-  width: 40%;
-  margin: 0;
-}
-
-#services .images img {
-  border-radius: 50%;
-  border-style: double;
-}
-
-/* services section ends */
-
 /* mission statement section begins */
 #mission-statement .lighter-image {
   height: 14rem;
@@ -117,3 +88,33 @@ header .mobile-nav .img-container {
 }
 
 /* mission statement section ends */
+
+/* services section begins */
+#services {
+  display: flex;
+  flex-direction: column;
+}
+
+#services .service-name {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+#services .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#services .images figure {
+  width: 40%;
+  height: 40%;
+  margin: 0;
+}
+
+#services .images img {
+  border-radius: 50%;
+  border-style: double;
+}
+
+/* services section ends */
