@@ -16,10 +16,15 @@ h1 {
 
 h2 {
   font-size: 1.125rem;
+  text-align: center;
 }
 
 h3 {
   font-size: 0.875rem
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .content {
@@ -106,7 +111,10 @@ header .mobile-nav .img-container {
 }
 
 #services .pricing {
-  padding-left: 1.50rem;
+  font-size: .75rem;
+  padding-left: 4.5rem;
+  display: flex;
+  align-items: center;
 }
 
 #services .images {
