@@ -16,12 +16,14 @@ h1 {
 
 h2 {
   font-size: 1.125rem;
-  padding-bottom: .75rem;
-  padding-top: 1rem;
 }
 
 h3 {
   font-size: 0.875rem
+}
+
+.content {
+  padding: .5rem;
 }
 
 /* header begins */
@@ -89,29 +91,32 @@ header .mobile-nav .img-container {
 /* mission statement section ends */
 
 /* services section begins */
-#services {
-  display: flex;
-  flex-direction: column;
+#services h2 {
+  padding-top: .5rem;
 }
 
 #services .service-name {
   list-style: circle;
   list-style-position: inside;
   text-indent: 1em;
-  padding-bottom: .75rem;
+}
+
+#services .content {
+  display: flex;
+}
+
+#services .pricing {
+  padding-left: 1.50rem;
 }
 
 #services .images {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  padding: 1.25rem 0;
 }
 
 #services .images figure {
-  width: 40%;
-  height: 40%;
+  width: 30%;
   margin: 0;
-  padding-bottom: 0.60rem;
 }
 
 #services .images img {
@@ -123,19 +128,23 @@ header .mobile-nav .img-container {
 
 /* about us begins */
 #about-us {
-  display: flex;
-  flex-direction: column;
-  height: 11rem;
+  height: 10rem;
 }
 
-#about-us .about {
+#about-us .content {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #about-us .img-container {
   margin: 0;
   padding-right: .75rem;
+}
+
+#about-us .img-container img {
+  border-radius: 50%;
+  border: #5a5a5a73 2px solid;
 }
 
 /* about us ends */
