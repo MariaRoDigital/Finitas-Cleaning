@@ -61,9 +61,7 @@ header .mobile-nav .img-container {
 
 /* mission statement section begins */
 #mission-statement .lighter-image {
-  height: 14rem;
-  width: 124%;
-  overflow: hidden;
+  height: 13rem;
   background:
     /* top, transparent white, faked with gradient */
     linear-gradient(rgba(255, 255, 255, 20%),
@@ -71,14 +69,14 @@ header .mobile-nav .img-container {
     /* bottom, image */
     url("../images/woman-relaxing.jpg");
   background-size: cover;
-  background-position: right 43%;
+  background-position: right 24%;
 }
 
 #mission-statement .mission-statement {
   position: relative;
   top: 18%;
   left: 6%;
-  width: 50%;
+  width: 55%;
   font-family: "yeseva-one";
   font-style: italic;
   font-size: .55rem;
@@ -138,11 +136,6 @@ header .mobile-nav .img-container {
 #about-us .img-container {
   margin: 0;
   padding-right: .75rem;
-}
-
-#about-us .img-container img {
-  border-radius: 50%;
-  border: #943e7a73 2px solid;
 }
 
 /* about us ends */
