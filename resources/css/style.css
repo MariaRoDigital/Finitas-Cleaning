@@ -86,7 +86,7 @@ header .mobile-nav .img-container {
   width: 55%;
   font-family: "yeseva-one";
   font-style: italic;
-  font-size: .55rem;
+  font-size: 0.625rem;
   letter-spacing: .1em;
   color: white;
   text-align: left;
@@ -112,7 +112,7 @@ header .mobile-nav .img-container {
 
 #services .pricing {
   font-size: .75rem;
-  padding-left: 4.5rem;
+  padding-left: 2.5rem;
   display: flex;
   align-items: center;
 }
@@ -130,6 +130,7 @@ header .mobile-nav .img-container {
 #services .images img {
   border-radius: 50%;
   border-style: double;
+  border-color: rgba(0, 66, 104, 255);
 }
 
 /* services section ends */
@@ -152,7 +153,7 @@ header .mobile-nav .img-container {
 
 #about-us .img-container img {
   border-radius: 50%;
-  border: #5a5a5a73 2px solid;
+  border: rgba(0, 66, 104, 255) 2px solid;
 }
 
 /* about us ends */
