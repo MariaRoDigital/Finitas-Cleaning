@@ -1,4 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: 'open-sans';
   color: rgb(82, 82, 82, 255);
   font-size: 0.5625rem;
@@ -23,12 +30,16 @@ h3 {
   font-size: 0.875rem
 }
 
+main {
+  margin: .75rem 0;
+}
+
 .bold {
   font-weight: bold;
 }
 
 .content {
-  padding: .5rem;
+  padding: 1.10rem;
 }
 
 /* header begins */
@@ -136,13 +147,8 @@ header .mobile-nav .img-container {
 /* services section ends */
 
 /* about us begins */
-#about-us {
-  height: 10rem;
-}
-
 #about-us .content {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -165,4 +171,5 @@ footer {
   padding: 1rem;
   background-color: rgb(90, 90, 90);
   color: white;
+  margin-top: auto;
 }

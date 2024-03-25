@@ -134,4 +134,15 @@
   .container {
     max-width: 1536px;
   }
+  #mission-statement .lighter-image {
+    height: 28rem;
+  }
+
+  #mission-statement .mission-statement {
+    font-size: 2rem;
+  }
+
+  footer {
+    height: 5rem;
+  }
 }
