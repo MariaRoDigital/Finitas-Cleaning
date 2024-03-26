@@ -31,7 +31,7 @@ h3 {
 }
 
 main {
-  margin: .75rem 0;
+  padding: 1rem 0;
 }
 
 .bold {
@@ -39,7 +39,7 @@ main {
 }
 
 .content {
-  padding: 1.10rem;
+  padding: 1.75rem 1.10rem;
 }
 
 /* header begins */
@@ -107,10 +107,6 @@ header .mobile-nav .img-container {
 /* mission statement section ends */
 
 /* services section begins */
-#services h2 {
-  padding-top: .5rem;
-}
-
 #services .service-name {
   list-style: circle;
   list-style-position: inside;
@@ -130,7 +126,6 @@ header .mobile-nav .img-container {
 
 #services .images {
   display: flex;
-  padding: 1.25rem 0;
 }
 
 #services .images figure {
@@ -147,6 +142,11 @@ header .mobile-nav .img-container {
 /* services section ends */
 
 /* about us begins */
+
+#about-us h2 {
+  padding-top: 1.10rem;
+}
+
 #about-us .content {
   display: flex;
   align-items: center;
@@ -160,6 +160,10 @@ header .mobile-nav .img-container {
 #about-us .img-container img {
   border-radius: 50%;
   border: rgba(0, 66, 104, 255) 2px solid;
+}
+
+#about-us p {
+  text-align: justify;
 }
 
 /* about us ends */

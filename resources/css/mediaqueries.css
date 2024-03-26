@@ -26,7 +26,11 @@
   }
 
   #services .pricing {
-    padding-left: 4.5rem;
+    padding-left: 1rem;
+  }
+
+  #services .content {
+    justify-content: space-around;
   }
 
   header .mobile-nav {
@@ -106,15 +110,20 @@
 
   #services .pricing {
     font-size: 1rem;
-    padding-left: 10rem;
-  }
-
-  #about-us {
-    height: 16rem;
   }
 
   .content {
     padding: 2rem;
+  }
+
+  #about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about-us .content {
+    width: 90%;
   }
 }
 
@@ -128,21 +137,34 @@
   .container {
     max-width: 1280px;
   }
+
+  #about-us .content {
+    width: 80%;
+  }
 }
 
 @media (min-width: 1280px) {
   .container {
     max-width: 1536px;
   }
+
+  header .desktop-nav .img-container {
+    width: 16%;
+  }
+
   #mission-statement .lighter-image {
-    height: 28rem;
+    height: 40rem;
   }
 
   #mission-statement .mission-statement {
     font-size: 2rem;
+    padding: 2.3rem;
+    left: 2.75%;
+    top: 10%;
   }
 
   footer {
     height: 5rem;
+    align-items: center;
   }
 }
